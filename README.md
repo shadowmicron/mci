@@ -54,7 +54,7 @@ logo='''
 |/ \___/ (_______/\_______/
                            
 --------------------------------------------------
-➣ Auther   : Binyamin
+➣ Auther   : Micron
 ➣ GitHub   : https://github.com/binyamin-binni
 ➣ YouTube  : Trick Proof
 ➣ Blogspot : https://trickproof.blogspot.com
