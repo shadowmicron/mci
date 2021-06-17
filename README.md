@@ -55,7 +55,7 @@ logo='''
                            
 --------------------------------------------------
 ➣ Auther   : Micron
-➣ GitHub   : https://github.com/binyamin-binni
+➣ GitHub   : https://github.com/shadowmicron
 ➣ YouTube  : Trick Proof
 ➣ Blogspot : https://trickproof.blogspot.com
 --------------------------------------------------
