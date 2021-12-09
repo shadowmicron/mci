@@ -8,20 +8,6 @@ try:
 except ImportError:
     os.system('pip2 install requests') #Module Not found Eror :(
 
-#Loding Funcation :)
-def baba(word):
-    lix = ["[\033[1;92m■\033[1;97m□□□□□□□□□□□□□]","[\033[1;93m■■\033[1;97m□□□□□□□□□□□□]", "[\033[1;94m■■■\033[1;97m□□□□□□□□□□□]", "[\033[1;96m■■■■\033[1;97m□□□□□□□□□□]", "[\033[1;95m■■■■■\033[1;97m□□□□□□□□□]", "[\033[1;97m■■■■■■\033[1;97m□□□□□□□□]", "[\033[1;93m■■■■■■■\033[1;97m□□□□□□□]", "[\033[1;91m■■■■■■■■\033[1;97m□□□□□□]", "[\033[1;96m■■■■■■■■■\033[1;97m□□□□□]", "[\033[1;92m■■■■■■■■■■\033[1;97m□□□□]", "[\033[1;94m■■■■■■■■■■■\033[1;97m□□□]", "[\033[1;95m■■■■■■■■■■■■\033[1;97m□□]", "[\033[1;93m■■■■■■■■■■■■■\033[1;97m□]", "[\033[1;92m■■■■■■■■■■■■■■\033[1;97m]"]
-    for i in range(5):
-        for x in range(len(lix)):
-            sys.stdout.write(('\r{}{}').format(str(word), lix[x]))
-            time.sleep(0.09)
-            sys.stdout.flush()
-
-#Collect Logo :) :)
-url = 'https://raw.githubusercontent.com/TECH-BABA/Crack-File/main/main/Raw Tool/Logo.txt' # logo url in raw 
-txt = urllib.urlopen(url)
-logo = txt.read() # logo
-
 def home(): #main menu
     os.system("clear")
     arm = platform.architecture()[0] #Checking arm
